@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+<main>
+  <% if (posts.length === 0) { %>
+    <p>No posts yet. <a href="/compose">Create one</a>.</p>
+  <% } %>
+  <% posts.forEach(post => { %>
+    <article>
+      <h2><a href="/posts/<%= post.title %>"><%= post.title %></a></h2>
+      <p><%= post.content.substring(0, 100) %>...</p>
+      <form action="/delete" method="POST" onsubmit="return confirm('Delete this post?');">
+        <input type="hidden" name="title" value="<%= post.title %>" />
+        <button type="submit">Delete</button>
+      </form>
+    </article>
+  <% }); %>
+</main>
+<%- include("partials/footer") %>
