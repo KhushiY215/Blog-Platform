@@ -64,20 +64,20 @@ node app.js
 
 Visit http://localhost:3000 to view the app.
 
-#🛠️ Future Improvements
+## 🛠️ Future Improvements
 
-Add persistent database (MongoDB or SQLite)
-Add user authentication
-Rich-text editor support for posts
-Edit/Delete post functionality
-Deploy live with HTTPS
+- Add persistent database (MongoDB or SQLite)
+- Add user authentication
+- Rich-text editor support for posts
+- Edit/Delete post functionality
+- Deploy live with HTTPS
 
-#🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 Please fork the repo and open a pull request with your feature or fix.
 
-#📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
-#🙋‍♀️ Author
+## 🙋‍♀️ Author
 Made by Khushi
