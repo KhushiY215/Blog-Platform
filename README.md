@@ -56,7 +56,7 @@ Blogging Platform/
 ## 📦 Installation & Run Locally
 
 ```bash
-git clone https://github.com/your-username/blogging-platform.git
+git clone https://github.com/KhushiY215/blogging-platform.git
 cd blogging-platform
 npm install
 node app.js
