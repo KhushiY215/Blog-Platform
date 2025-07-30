@@ -76,8 +76,5 @@ Visit http://localhost:3000 to view the app.
 Contributions are welcome!
 Please fork the repo and open a pull request with your feature or fix.
 
-## 📜 License
-This project is licensed under the MIT License.
-
 ## 🙋‍♀️ Author
 Made by Khushi
